@@ -4,18 +4,17 @@
         <attribute name="name" value="TFUNC"/>
         <attribute name="authors" value="User"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-11-11 09:04:15 PM"/>
+        <attribute name="saved" value="2025-11-11 09:08:12 PM"/>
         <attribute name="created" value="VXNlcjtSSUJLQUFBQTsyMDI1LTExLTExOzA4OjIwOjUzIFBNOzIyNDY="/>
-        <attribute name="edited" value="VXNlcjtSSUJLQUFBQTsyMDI1LTExLTExOzA5OjA0OjE1IFBNOzQ7MjM1OA=="/>
+        <attribute name="edited" value="VXNlcjtSSUJLQUFBQTsyMDI1LTExLTExOzA5OjA4OjEyIFBNOzY7MjM2MQ=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="N, hasil" type="Integer" array="False" size=""/>
-            <output expression="&quot;Masukkan bilangan bulat positif N:&quot;" newline="True"/>
             <input variable="N"/>
             <assign variable="hasil" expression="HitungRekursif(N)"/>
-            <output expression="&quot;Bilangan yang dimasukkan N: &quot;&amp; N" newline="True"/>
+            <output expression="&quot;Bilangan yang dimasukkan : &quot;&amp;N" newline="True"/>
             <output expression="&quot;Hasil perhitungan rekursif : &quot; &amp; hasil" newline="True"/>
         </body>
     </function>
