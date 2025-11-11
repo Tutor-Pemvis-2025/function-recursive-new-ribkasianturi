@@ -43,6 +43,7 @@ Input:
 5
 
 Output:
+5
 
 Bilangan yang dimasukkan (N): 5
 Hasil perhitungan rekursif (1+2+3+4+5): 15
