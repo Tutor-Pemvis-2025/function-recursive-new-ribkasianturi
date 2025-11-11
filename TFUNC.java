@@ -7,10 +7,10 @@ public class TFUNC {
     public static void main(String[] args) {
         int n, hasil;
 
-        System.out.println("Masukkan bilangan bulat positif (N):");
+        System.out.println("Masukkan bilangan bulat positif N:");
         n = Integer.parseInt(input.nextLine());
         hasil = hitungRekursif(n);
-        System.out.println("Bilangan yang dimasukkan(N): " + n);
+        System.out.println("Bilangan yang dimasukkan N: " + n);
         System.out.println("Hasil perhitungan rekursif : " + hasil);
     }
     
@@ -26,3 +26,4 @@ public class TFUNC {
         return hasilRekursi;
     }
 }
+
